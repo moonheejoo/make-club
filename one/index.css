@@ -1,0 +1,64 @@
+body {
+  font-family: 'Baloo', cursive;
+  background: #ef3340;
+  height: 1400px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+p.small {
+    line-height: 70%;
+}
+
+p.big {
+    line-height: 200%;
+}
+
+
+.title-area {
+  width: 700px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.main-text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#stickyHeader.shadow {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#stickyHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #ef3340;
+    height: 93px;
+    box-sizing: border-box;
+    z-index: 10000000;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);å
+}
+
+.transitionSticky {
+    -webkit-transition: top 0.5s ease-in-out;
+    -moz-transition: top 0.5s ease-in-out;
+    -ms-transition: top 0.5s ease-in-out;
+    -o-transition: top 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out;
+}
